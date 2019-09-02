@@ -56,7 +56,7 @@ Aspeknya :<br>
  4. Pada class Sepeda, terdapat state/atribut apa saja?<br>
     Pada class Sepeda, terdapat state/atribut ada merek, kecepatan, gear dan warna<br>
  5. Tambahkan atribut warna pada class Sepeda.<br>
-    ![contoh screenshot](img/5.jpg)
+    ![screenshot](img/5.jpg)
  6. Mengapa pada saat kita membuat class SepedaGunung, kita tidak perlu membuat class nya dari nol?<br>
     karena kita sudah membuat mewariskan class sepeda kepada sepeda gunung.<br>
 ## Tugas
@@ -65,13 +65,21 @@ Aspeknya :<br>
 
 `contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
 
-![contoh screenshot](img/contoh-schot1.PNG)
+![screenshot Mobil](img/Mobil.jpg)
 
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Contoh12345Habibie.java)
+link kode program : [ini link ke kode program](../../src/1_Pengantar_Konsep_PBO/MobilKeluarga.java)<br>
+
+![screenshot MobilKeluarga](img/MobilKeluarga.jpg)
+
+link kode program : [ini link ke kode program](../../src/1_Pengantar_Konsep_PBO/Mobil.java)<br>
+
+![screenshot MobilSport](img/MobilSport.jpg)
+
+link kode program : [ini link ke kode program](../../src/1_Pengantar_Konsep_PBO/MobilSport.java)
 
 ## Kesimpulan
 
-(Berisi simpulan yang telah diperoleh selama praktikum atau belajar pada pertemuan ini)
+(Alhamdulillah saya berhasil walau banyak salah dibagian MobilKeluarga dengan bantuan modul dan mereferensi project sepeda saya bisa memahami sedikit demi sedikit materinya dan tugasnya)
 
 ## Pernyataan Diri
 
@@ -81,4 +89,4 @@ Jika saya melakukan plagiasi, kecurangan, atau melanggar hak kekayaan intelektua
 
 Ttd,
 
-***(silakan isi nama lengkap di sini)***
+HAFID ALI RAHMAN WIBISANA
