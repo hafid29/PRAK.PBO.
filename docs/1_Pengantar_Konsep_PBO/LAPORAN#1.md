@@ -18,11 +18,11 @@
 
 ![screenshot sepeda.java](img/sepeda_1.jpg)
 
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/)
+Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Sepeda.java)
 
-![screenshot sepeda.java](img/sepeda_demo_1.jpg)
+![screenshot sepedademo.java](img/sepeda_demo_1.jpg)
 
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/)
+Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/SepedaDemo.java)
 
 ### Percobaan 2
 
