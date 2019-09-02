@@ -18,12 +18,13 @@
 
 ![screenshot sepeda](img/sepeda_1.jpg)
 
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Sepeda.java)
+link kode program : [ini link ke kode program](../../src/1_Pengantar_Konsep_PBO/Sepeda.java)<br>
+
 2. Percobaan pada source code sepedaDemo.java 
 
 ![screenshot sepedademo](img/sepeda_demo_1.jpg)
 
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/SepedaDemo.java)
+link kode program : [ini link ke kode program](../../src/1_Pengantar_Konsep_PBO/SepedaDemo.java)
 
 ### Percobaan 2
 
@@ -31,9 +32,9 @@ Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengant
 
 `contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
 
-![screenshot sepedagunung](img/sepeda_gunung_1.JPG)
+![screenshot sepedagunung](img/sepeda_gunung_1.jpg)
 
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/SepedaGunung.java)
+link kode program : [ini link ke kode program](../../src/1_Pengantar_Konsep_PBO/SepedaGunung.java)
 
 ## Pertanyaan
 
