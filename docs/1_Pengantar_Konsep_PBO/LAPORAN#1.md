@@ -44,19 +44,13 @@ Aspeknya :<br>
  2. Apa yang dimaksud dengan object dan apa bedanya dengan class?<br> 
     Objek - membungkus data dan fungsi bersama menjadi suatu unit dalam sebuah program komputer; objek merupakan dasar dari modularitas     dan struktur dalam sebuah program komputer berorientasi objek.<br>
     Class : class merupakan rancangan (design) bersifat abstract <br>
-Object : perwujudan suatu class class Object bersifat konkrit<br>
+    Object : perwujudan suatu class class Object bersifat konkrit<br>
  3. Sebutkan salah satu kelebihan utama dari pemrograman berorientasi objek dibandingkan dengan pemrograman struktural!<br>
- Cara pandang PBO : Program bukan urut – urutan instruksi tapi diselesaikan oleh objek – objek yang bekerjasama untuk menyelesaikan masalah.<br>
+    Cara pandang PBO : Program bukan urut – urutan instruksi tapi diselesaikan oleh objek – objek yang bekerjasama untuk menyelesaikan       masalah.<br>
  4. Pada class Sepeda, terdapat state/atribut apa saja?<br>
+    Pada class Sepeda, terdapat state/atribut ada merek, kecepatan, gear dan warna<br>)
  5. Tambahkan atribut warna pada class Sepeda.<br>
  6. Mengapa pada saat kita membuat class SepedaGunung, kita tidak perlu membuat class nya dari nol?<br>
-( 
- jawaban
-
-
-
-4.	Pada class Sepeda, terdapat state/atribut ada merek, kecepatan, gear dan warna<br>)
-
 ## Tugas
 
 (silakan kerjakan tugas di sini beserta `screenshot` hasil kompilasi program. Jika ada rujukan ke file program, bisa dibuat linknya di sini.)
