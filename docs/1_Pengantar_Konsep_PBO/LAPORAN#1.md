@@ -54,9 +54,11 @@ Aspeknya :<br>
  3. Sebutkan salah satu kelebihan utama dari pemrograman berorientasi objek dibandingkan dengan pemrograman struktural!<br>
     Cara pandang PBO : Program bukan urut – urutan instruksi tapi diselesaikan oleh objek – objek yang bekerjasama untuk menyelesaikan       masalah.<br>
  4. Pada class Sepeda, terdapat state/atribut apa saja?<br>
-    Pada class Sepeda, terdapat state/atribut ada merek, kecepatan, gear dan warna<br>)
+    Pada class Sepeda, terdapat state/atribut ada merek, kecepatan, gear dan warna<br>
  5. Tambahkan atribut warna pada class Sepeda.<br>
+    ![contoh screenshot](img/contoh-schot1.PNG)
  6. Mengapa pada saat kita membuat class SepedaGunung, kita tidak perlu membuat class nya dari nol?<br>
+    karena kita sudah membuat mewariskan class sepeda kepada sepeda gunung.<br>
 ## Tugas
 
 (silakan kerjakan tugas di sini beserta `screenshot` hasil kompilasi program. Jika ada rujukan ke file program, bisa dibuat linknya di sini.)
