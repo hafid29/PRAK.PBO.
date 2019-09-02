@@ -43,7 +43,10 @@ Aspeknya :<br>
 •	Polimorfisme melalui pengiriman pesan. Tidak bergantung kepada pemanggilan subrutin, bahasa orientasi objek dapat mengirim pesan; metode tertentu yang berhubungan dengan sebuah pengiriman pesan tergantung kepada objek tertentu di mana pesa tersebut dikirim. Contohnya, bila sebuah burung menerima pesan "gerak cepat", dia akan menggerakan sayapnya dan terbang. Bila seekor singa menerima pesan yang sama, dia akan menggerakkan kakinya dan berlari. Keduanya menjawab sebuah pesan yang sama, namun yang sesuai dengan kemampuan hewan tersebut. Ini disebut polimorfisme karena sebuah variabel tungal dalam program dapat memegang berbagai jenis objek yang berbeda selagi program berjalan, dan teks program yang sama dapat memanggil beberapa metode yang berbeda di saat yang berbeda dalam pemanggilan yang sama. Hal ini berlawanan dengan bahasa fungsional yang mencapai polimorfisme melalui penggunaan fungsi kelas-pertama.<br>
  2. Apa yang dimaksud dengan object dan apa bedanya dengan class?<br> 
     Objek - membungkus data dan fungsi bersama menjadi suatu unit dalam sebuah program komputer; objek merupakan dasar dari modularitas     dan struktur dalam sebuah program komputer berorientasi objek.<br>
+    Class : class merupakan rancangan (design) bersifat abstract <br>
+Object : perwujudan suatu class class Object bersifat konkrit<br>
  3. Sebutkan salah satu kelebihan utama dari pemrograman berorientasi objek dibandingkan dengan pemrograman struktural!<br>
+ Cara pandang PBO : Program bukan urut – urutan instruksi tapi diselesaikan oleh objek – objek yang bekerjasama untuk menyelesaikan masalah.<br>
  4. Pada class Sepeda, terdapat state/atribut apa saja?<br>
  5. Tambahkan atribut warna pada class Sepeda.<br>
  6. Mengapa pada saat kita membuat class SepedaGunung, kita tidak perlu membuat class nya dari nol?<br>
@@ -51,9 +54,7 @@ Aspeknya :<br>
  jawaban
 
 
-Class : class merupakan rancangan (design) bersifat abstract <br>
-Object : perwujudan suatu class class Object bersifat konkrit<br>
-3.	Cara pandang PBO : Program bukan urut – urutan instruksi tapi diselesaikan oleh objek – objek yang bekerjasama untuk menyelesaikan masalah.<br>
+
 4.	Pada class Sepeda, terdapat state/atribut ada merek, kecepatan, gear dan warna<br>)
 
 ## Tugas
