@@ -19,6 +19,7 @@
 ![screenshot sepeda](img/sepeda_1.jpg)
 
 Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Sepeda.java)
+2. Percobaan pada source code sepedaDemo.java 
 
 ![screenshot sepedademo](img/sepeda_demo_1.jpg)
 
@@ -26,13 +27,13 @@ Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengant
 
 ### Percobaan 2
 
-(berisi penjelasan percobaan 2. Jika ada rujukan ke file program, bisa dibuat linknya di sini.)
+1. Percobaan pada source code sepedaGunung.java
 
 `contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
 
-![contoh screenshot](img/berhasil_hehe.JPG)
+![screenshot sepedagunung](img/sepeda_gunung_1.JPG)
 
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Sepeda.java)
+Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/SepedaGunung.java)
 
 ## Pertanyaan
 
