@@ -6,7 +6,7 @@
 
 ## Ringkasan Materi
 
-(berisi catatan penting pribadi selama praktikum berlangsung ataupun menemukan permasalahan khusus saat melakukan percobaan)
+(saya belum menemukan permasalahan khusus tapi saya sebagian memahami tentang java karena tugas ini)
 
 ## Percobaan
 
