@@ -56,7 +56,7 @@ Aspeknya :<br>
  4. Pada class Sepeda, terdapat state/atribut apa saja?<br>
     Pada class Sepeda, terdapat state/atribut ada merek, kecepatan, gear dan warna<br>
  5. Tambahkan atribut warna pada class Sepeda.<br>
-    ![contoh screenshot](img/contoh-schot1.PNG)
+    ![contoh screenshot](img/5.jpg)
  6. Mengapa pada saat kita membuat class SepedaGunung, kita tidak perlu membuat class nya dari nol?<br>
     karena kita sudah membuat mewariskan class sepeda kepada sepeda gunung.<br>
 ## Tugas
