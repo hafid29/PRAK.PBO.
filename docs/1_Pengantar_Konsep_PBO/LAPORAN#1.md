@@ -12,11 +12,11 @@
 
 ### Percobaan 1
 
-()
+1. Percobaan pada source code sepeda.java 
 
 `contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
 
-![contoh screenshot](img/Menambahkan data.JPG)
+![screenshot sepeda.java](img/Menambahkan data.JPG)
 
 Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Contoh12345Habibie.java)
 
