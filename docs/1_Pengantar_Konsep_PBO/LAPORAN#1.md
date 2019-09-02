@@ -16,9 +16,15 @@
 
 `contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
 
-![screenshot sepeda.java](img/Menambahkan data.JPG)
+![screenshot sepeda.java](img/sepeda_1.jpg)
 
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Contoh12345Habibie.java)
+Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/)
+![screenshot sepeda.java](img/sepeda_2.jpg)
+
+Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/)
+![screenshot sepeda.java](img/sepeda_3.jpg)
+
+Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/)
 
 ### Percobaan 2
 
