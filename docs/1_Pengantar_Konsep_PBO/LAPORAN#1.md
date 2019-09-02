@@ -32,12 +32,12 @@ Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengant
 
 ## Pertanyaan
 
-(1. Sebutkan dan jelaskan aspek-aspek yang ada pada pemrograman berorientasi objek!<br> 
+ 1. Sebutkan dan jelaskan aspek-aspek yang ada pada pemrograman berorientasi objek!<br> 
  2. Apa yang dimaksud dengan object dan apa bedanya dengan class?<br> 
  3. Sebutkan salah satu kelebihan utama dari pemrograman berorientasi objek dibandingkan dengan pemrograman struktural!<br>
  4. Pada class Sepeda, terdapat state/atribut apa saja?<br>
  5. Tambahkan atribut warna pada class Sepeda.<br>
- 6. Mengapa pada saat kita membuat class SepedaGunung, kita tidak perlu membuat class nya dari nol? )<br>
+ 6. Mengapa pada saat kita membuat class SepedaGunung, kita tidak perlu membuat class nya dari nol?<br>
 
 ## Tugas
 
