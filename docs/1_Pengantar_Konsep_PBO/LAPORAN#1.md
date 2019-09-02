@@ -28,7 +28,7 @@ Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengant
 
 ![contoh screenshot](img/berhasil_hehe.JPG)
 
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Contoh12345Habibie.java)
+Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Sepeda.java)
 
 ## Pertanyaan
 
