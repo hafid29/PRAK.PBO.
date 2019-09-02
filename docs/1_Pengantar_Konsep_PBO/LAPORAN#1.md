@@ -38,6 +38,7 @@ Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengant
  4. Pada class Sepeda, terdapat state/atribut apa saja?<br>
  5. Tambahkan atribut warna pada class Sepeda.<br>
  6. Mengapa pada saat kita membuat class SepedaGunung, kita tidak perlu membuat class nya dari nol?<br>
+ <p>
  jawaban
 1.	Pemrograman berorientasi objek (Inggris: object-oriented programming disingkat OOP) merupakan paradigma pemrograman berdasarkan konsep "objek", yang dapat berisi data, dalam bentuk field atau dikenal juga sebagai atribut; serta kode, dalam bentuk fungsi/prosedur atau dikenal juga sebagai method. Semua data dan fungsi di dalam paradigma ini dibungkus dalam kelas-kelas atau objek-objek. Bandingkan dengan logika pemrograman terstruktur. Setiap objek dapat menerima pesan, memproses data, dan mengirim pesan ke objek lainnya,
 Model data berorientasi objek dikatakan dapat memberi fleksibilitas yang lebih, kemudahan mengubah program, dan digunakan luas dalam teknik peranti lunak skala besar. Lebih jauh lagi, pendukung OOP mengklaim bahwa OOP lebih mudah dipelajari bagi pemula dibanding dengan pendekatan sebelumnya, dan pendekatan OOP lebih mudah dikembangkan dan dirawat.<br>
@@ -52,7 +53,7 @@ Class : class merupakan rancangan (design) bersifat abstract <br>
 Object : perwujudan suatu class class Object bersifat konkrit<br>
 3.	Cara pandang PBO : Program bukan urut – urutan instruksi tapi diselesaikan oleh objek – objek yang bekerjasama untuk menyelesaikan masalah.<br>
 4.	Pada class Sepeda, terdapat state/atribut ada merek, kecepatan, gear dan warna<br>
-
+</p>
 ## Tugas
 
 (silakan kerjakan tugas di sini beserta `screenshot` hasil kompilasi program. Jika ada rujukan ke file program, bisa dibuat linknya di sini.)
