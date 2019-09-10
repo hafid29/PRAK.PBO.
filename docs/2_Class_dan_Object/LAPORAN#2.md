@@ -47,11 +47,11 @@ pembuatan class mahasiswa<br>
 
 `contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
 
-1. Bagian Mahasiswa ![screenshot](img/percobaan2.jpg)<br>
+1. Bagian Mahasiswa ![screenshot](img/percobaan2.JPG)<br>
 
 link kode program : [contoh link ke kode program](../../src/2_Class_dan_Object/Mahasiswa.java)<br>
 
-2. Bagian TestMahasiswa ![screenshot](img/percobaan2.1.jpg)<br>
+2. Bagian TestMahasiswa ![screenshot](img/percobaan2.1.JPG)<br>
 
 link kode program : [contoh link ke kode program](../../src/2_Class_dan_Object/TestMahasiswa.java)<br>
 
