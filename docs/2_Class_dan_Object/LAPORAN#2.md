@@ -18,7 +18,7 @@
 
 ### Percobaan 1
 
-1. ![screenshot](img/percobaan1.jpg)<br>
+1. ![screenshot](img/percobaan1.JPG)<br>
 2. Class Perusahaan dan Karyawan<br>
 3. Class Karyawan <br>
 atribut<br>
@@ -35,8 +35,8 @@ Supervisior<br>
 
 `contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
 
-![screenshot](img/percobaan1.2.jpg)<br>
-![screenshot](img/percobaan1.3.jpg)<br>
+![screenshot](img/percobaan1.2.JPG)<br>
+![screenshot](img/percobaan1.3.JPG)<br>
 
 link kode program : [ini link ke kode program](/../src/2_Class_and_Object/perusahaan.java)<br>
 link kode program : [ini link ke kode program](/../src/2_Class_and_Object/Karyawan.java)<br>
