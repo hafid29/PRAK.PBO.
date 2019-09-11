@@ -2,13 +2,13 @@
 
 ## Kompetensi
 
- Mahasiswa dapat memahami deskripsi dari class dan object<br> 
- Mahasiswa memahami implementasi dari class<br> 
- Mahasiswa dapat memahami implementasi dari attribute<br> 
- Mahasiswa dapat memahami implementasi dari method<br>
- Mahasiswa dapat memahami implementasi dari proses instansiasi<br> 
- Mahasiswa dapat memahami implementasi dari try-catch<br> 
- Mahasiswa dapat memahami proses pemodelan class diagram menggunakan UML 
+* Mahasiswa dapat memahami deskripsi dari class dan object 
+* Mahasiswa memahami implementasi dari class 
+* Mahasiswa dapat memahami implementasi dari attribute 
+* Mahasiswa dapat memahami implementasi dari method
+* Mahasiswa dapat memahami implementasi dari proses instansiasi 
+* Mahasiswa dapat memahami implementasi dari try-catch 
+* Mahasiswa dapat memahami proses pemodelan class diagram menggunakan UML 
 
 ## Ringkasan Materi
 
@@ -18,101 +18,101 @@
 
 ### Percobaan 1
 
-1. ![screenshot](img/percobaan1.JPG)<br>
-2. Class Perusahaan dan Karyawan<br>
-3. Class Karyawan <br>
-atribut<br>
-idKaryawan int<br>
-namaKaryawan String<br>
-jenisKelamin String<br>
-jabatan String<br>
-gaji int<br>
-4. 1001<br>
-Hafid<br>
-Pria<br>
-Supervisior<br>
-2000000<br>
+1. ![screenshot](img/percobaan1.JPG)
+2. Class Perusahaan dan Karyawan
+3. Class Karyawan 
+atribut
+idKaryawan int
+namaKaryawan String
+jenisKelamin String
+jabatan String
+gaji int
+4. 1001
+Hafid
+Pria
+Supervisior
+2000000
 
 `contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
 
-![screenshot](img/percobaan1.2.JPG)<br>
-![screenshot](img/percobaan1.3.JPG)<br>
+![screenshot](img/percobaan1.2.JPG)
+![screenshot](img/percobaan1.3.JPG)
 
-link kode program : [ini link ke kode program](/../src/2_Class_and_Object/perusahaan.java)<br>
-link kode program : [ini link ke kode program](/../src/2_Class_and_Object/Karyawan.java)<br>
+link kode program : [ini link ke kode program](/../src/2_Class_and_Object/perusahaan.java)
+link kode program : [ini link ke kode program](/../src/2_Class_and_Object/Karyawan.java)
 
 ### Percobaan 2
 
-pembuatan class mahasiswa<br>
+pembuatan class mahasiswa
 
 `contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
 
-1. Bagian Mahasiswa ![screenshot](img/percobaan2.JPG)<br>
+1. Bagian Mahasiswa ![screenshot](img/percobaan2.JPG)
 
-link kode program : [contoh link ke kode program](../../src/2_Class_dan_Object/Mahasiswa.java)<br>
+link kode program : [contoh link ke kode program](../../src/2_Class_dan_Object/Mahasiswa.java)
 
-2. Bagian TestMahasiswa ![screenshot](img/percobaan2.1.JPG)<br>
+2. Bagian TestMahasiswa ![screenshot](img/percobaan2.1.JPG)
 
-link kode program : [contoh link ke kode program](../../src/2_Class_dan_Object/TestMahasiswa.java)<br>
+link kode program : [contoh link ke kode program](../../src/2_Class_dan_Object/TestMahasiswa.java)
 
-Essai<br>
-7. bagian pendeklarasian atribut adalah nim, nama, alamat, dan kelas.<br>
-   public void tampilBiodata() {<br>
+Essai
+7. bagian pendeklarasian atribut adalah nim, nama, alamat, dan kelas.
+   public void tampilBiodata() {
     	System.out.println("Nim :"+nim);
     	System.out.println("Nama :"+nama);
     	System.out.println("Alamat :"+alamat);   
    	System.out.println("Kelas :"+kelas);
-8. bagian pendeklarasian method adalah 101, HAFID, Jatimulyo, TI 2C, dan TampilBiodata<br>
+8. bagian pendeklarasian method adalah 101, HAFID, Jatimulyo, TI 2C, dan TampilBiodata
 	mhs1.nim=101;
         mhs1.nama="HAFID";
         mhs1.alamat="Jatimulyo";
         mhs1.kelas="TI 2C";
         mhs1.tampilBiodata();
-9. 1 object yaitu Mahasiswa.java<br>
-10. yang dilakukan pada sintaks tersebut adalah untuk menginput method kedalam atribut<br>
-11. yang dilakukan pada sintaks tersebut adalah untuk menampilkan seluruh method yang ada pada atribut<br>
-12. Bagian Instasiasi 2 object ![screenshot](img/2object.jpg)<br>
+9. 1 object yaitu Mahasiswa.java
+10. yang dilakukan pada sintaks tersebut adalah untuk menginput method kedalam atribut
+11. yang dilakukan pada sintaks tersebut adalah untuk menampilkan seluruh method yang ada pada atribut
+12. Bagian Instasiasi 2 object ![screenshot](img/2object.jpg)
 
-link kode program : [contoh link ke kode program](../../src/2_Class_dan_Object/TestMahasiswa.java)<br>
+link kode program : [contoh link ke kode program](../../src/2_Class_dan_Object/TestMahasiswa.java)
 
 ## Percobaan 3: Menulis method yang memiliki argument/parameter dan memiliki return
 
-1,2,3.  Bagian Barang ![screenshot](img/brg1.jpg)<br>
+1,2,3.  Bagian Barang ![screenshot](img/brg1.jpg)
 
-link kode program : [link ke kode program](../../src/2_Class_dan_Object/Barang.java)<br>
+link kode program : [link ke kode program](../../src/2_Class_dan_Object/Barang.java)
 
-4,5,6. Bagian TestBarang ![screenshot](img/brg2.jpg)<br>
+4,5,6. Bagian TestBarang ![screenshot](img/brg2.jpg)
 
-link kode program : [link ke kode program](../../src/2_Class_dan_Object/testBarang.java)<br>
+link kode program : [link ke kode program](../../src/2_Class_dan_Object/testBarang.java)
 
-7. fungsi argumen dalam suatu method adalah untuk menambahkan/menginput stok barang<br>
-8. kesimpulan tentang kegunaan kata kunci return adalah return berfungsi untuk mengembalikan nilai dari suatu variabel dan ditambahkan nilai input<br>
-ketika suatu method ingin mengembalikan nilai variabelnya secara langsung<br>
+7. fungsi argumen dalam suatu method adalah untuk menambahkan/menginput stok barang
+8. kesimpulan tentang kegunaan kata kunci return adalah return berfungsi untuk mengembalikan nilai dari suatu variabel dan ditambahkan nilai input
+ketika suatu method ingin mengembalikan nilai variabelnya secara langsung
 
 ## Pertanyaan
- ()<br>
+ ()
 ## Tugas
-1. Suatu toko persewaan video game salah satu yang diolah adalah peminjaman, dimana data yang dicatat ketika ada orang yang melakukan peminjaman adalah id, nama member, nama game, dan harga yang harus dibayar.<br> Setiap peminjaman bisa menampilkan data hasil peminjaman dan harga yang harus dibayar.<br> Buatlah class diagram pada studi kasus diatas!
-Penjelasan:<br>
-a. Harga yang harus dibayar diperoleh dari lama sewa x harga.<br>
-b. Diasumsikan 1x transaksi peminjaman game yang dipinjam hanya 1 game saja.<br>
-Bagian TokoGaming ![screenshot](img/tokogame.jpg)<br>
+1. Suatu toko persewaan video game salah satu yang diolah adalah peminjaman, dimana data yang dicatat ketika ada orang yang melakukan peminjaman adalah id, nama member, nama game, dan harga yang harus dibayar. Setiap peminjaman bisa menampilkan data hasil peminjaman dan harga yang harus dibayar. Buatlah class diagram pada studi kasus diatas!
+Penjelasan:
+a. Harga yang harus dibayar diperoleh dari lama sewa x harga.
+b. Diasumsikan 1x transaksi peminjaman game yang dipinjam hanya 1 game saja.
+Bagian TokoGaming ![screenshot](img/tokogame.jpg)
 
-link kode program : [link ke kode program](../../src/2_Class_dan_Object/Gaming.java)<br>
-2. jadi satu sama nomer 1<br>
+link kode program : [link ke kode program](../../src/2_Class_dan_Object/Gaming.java)
+2. jadi satu sama nomer 1
 
 3. Program Hitung Jari-Jari lingkaran
-Bagian Lingkaran ![screenshot](img/lingkaran.jpg)<br>
+Bagian Lingkaran ![screenshot](img/lingkaran.jpg)
 
-link kode program : [link ke kode program](../../src/2_Class_dan_Object/Lingkaran.java)<br>
+link kode program : [link ke kode program](../../src/2_Class_dan_Object/Lingkaran.java)
 4. Program Pembayaran Dengan Diskon 
 Pada program ini terdapat objek dan class seperti class Barang dan TestBarang dimana di dalamnya terdapat objek Barang meliputi kodeBarang, namaBarang, dan harga.
-Bagian Diskon ![screenshot](img/diskon1.jpg)<br>
+Bagian Diskon ![screenshot](img/diskon1.jpg)
 
-link kode program : [link ke kode program](../../src/2_Class_dan_Object/diskon.java)<br>
-Bagian MainDiskon ![screenshot](img/diskon.jpg)<br>
+link kode program : [link ke kode program](../../src/2_Class_dan_Object/diskon.java)
+Bagian MainDiskon ![screenshot](img/diskon.jpg)
 
-link kode program : [link ke kode program](../../src/2_Class_dan_Object/maindiskon.java)<br>
+link kode program : [link ke kode program](../../src/2_Class_dan_Object/maindiskon.java)
 ## Kesimpulan
 
 return memiliki fungsi yang terbilang penting karena bisa mengembalikan nilai tanpa harus menulis kembali nilai tersebut
