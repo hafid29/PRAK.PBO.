@@ -8,7 +8,7 @@
 * Mahasiswa dapat memahami implementasi dari method
 * Mahasiswa dapat memahami implementasi dari proses instansiasi 
 * Mahasiswa dapat memahami implementasi dari try-catch 
-* Mahasiswa dapat memahami proses pemodelan class diagram menggunakan UML 
+* Mahasiswa dapat memahami proses pemodelan class diagram menggunakan UML
 
 ## Ringkasan Materi
 
