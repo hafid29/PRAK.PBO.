@@ -22,13 +22,13 @@ Setelah melakukan percobaan pada modul ini, mahasiswa memahami konsep:
 
 yang janggal di hasil percobaan 1 adalah ketika mesin off kecepatan 50
 
-*link kode program : [ini link ke kode program](/../src/3_Encapsulation/Motor1941723009Hafid.java)
+*link kode program : [ini link ke kode program](/../3_Encapsulation/src/Motor1941723009Hafid.java)
 
 *link kode program : [ini link ke kode program](/../src/3_Encapsulation/MotorDemo1941723009Hafid.java)
 
 ![screenshot](img/percobaan2.1jpg)
 
-link kode program : [ini link ke kode program](/../src/3_Encapsulasi/Motor1941723009Hafid.java)
+link kode program : [ini link ke kode program](/../3_Encapsulation/src/Motor1941723009Hafid.java)
 link kode program : [ini link ke kode program](/../src/3_Encapsulasi/MotorDemo1941723009Hafid.java)
 
 ### Percobaan 2 bagian Access Modifier
