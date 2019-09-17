@@ -33,7 +33,6 @@ Pria
 Supervisior
 2000000
 
-`contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
 
 ![screenshot](img/percobaan1.2.JPG)
 ![screenshot](img/percobaan1.3.JPG)
