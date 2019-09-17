@@ -12,7 +12,9 @@
 
 ## Ringkasan Materi
 
-(berisi catatan penting pribadi selama praktikum berlangsung ataupun menemukan permasalahan khusus saat melakukan percobaan)
+Class adalah “blueprint” atau “cetakan” untuk menciptakan suatu  object. Class biasa dipergunakan untuk membungkus berbagai attribute dan method yang saling berhubungan menjadi sebuah group agar lebih terorganisir sebagai satu kesatuan. Contoh : Class Kendaraan, Class Bangunan, Class Handphone, dll
+
+Lalu, Object adalah hasil instantiate dari class. Karena class berbentuk “cetakan”, maka untuk mengambil isi cetakan tersebut kita wajib buat objectnya. Class dan Object adalah kedua hal yang saling berhubungan satu sama lain. Contoh : Object Motor (instance dari class Kendaraan), Object Rumah, Object Samsung, Object Nokia, dll
 
 ## Percobaan
 
@@ -40,7 +42,7 @@ Supervisior
 link kode program : [ini link ke kode program](/../src/2_Class_and_Object/perusahaan.java)
 link kode program : [ini link ke kode program](/../src/2_Class_and_Object/Karyawan.java)
 
-### Percobaan 2
+## Percobaan 2
 
 pembuatan class mahasiswa
 
@@ -49,26 +51,6 @@ pembuatan class mahasiswa
 link kode program : [contoh link ke kode program](../../src/2_Class_dan_Object/Mahasiswa.java)
 
 2. Bagian TestMahasiswa ![screenshot](img/percobaan2.1.JPG)
-
-link kode program : [contoh link ke kode program](../../src/2_Class_dan_Object/TestMahasiswa.java)
-
-Essai
-7. bagian pendeklarasian atribut adalah nim, nama, alamat, dan kelas.
-   public void tampilBiodata() {
-    	System.out.println("Nim :"+nim);
-    	System.out.println("Nama :"+nama);
-    	System.out.println("Alamat :"+alamat);   
-   	System.out.println("Kelas :"+kelas);
-8. bagian pendeklarasian method adalah 101, HAFID, Jatimulyo, TI 2C, dan TampilBiodata
-	mhs1.nim=101;
-        mhs1.nama="HAFID";
-        mhs1.alamat="Jatimulyo";
-        mhs1.kelas="TI 2C";
-        mhs1.tampilBiodata();
-9. 1 object yaitu Mahasiswa.java
-10. yang dilakukan pada sintaks tersebut adalah untuk menginput method kedalam atribut
-11. yang dilakukan pada sintaks tersebut adalah untuk menampilkan seluruh method yang ada pada atribut
-12. Bagian Instasiasi 2 object ![screenshot](img/2object.jpg)
 
 link kode program : [contoh link ke kode program](../../src/2_Class_dan_Object/TestMahasiswa.java)
 
@@ -82,12 +64,37 @@ link kode program : [link ke kode program](../../src/2_Class_dan_Object/Barang.j
 
 link kode program : [link ke kode program](../../src/2_Class_dan_Object/testBarang.java)
 
-7. fungsi argumen dalam suatu method adalah untuk menambahkan/menginput stok barang
-8. kesimpulan tentang kegunaan kata kunci return adalah return berfungsi untuk mengembalikan nilai dari suatu variabel dan ditambahkan nilai input
-ketika suatu method ingin mengembalikan nilai variabelnya secara langsung
+## 
+7. Apakah fungsi argumen dalam suatu method?
+fungsi argumen dalam suatu method adalah untuk menambahkan/menginput stok barang 
+8. Ambil kesimpulan tentang kegunaan dari kata kunci return , dan kapan suatu method harus memiliki return!
+kesimpulan tentang kegunaan kata kunci return adalah return berfungsi untuk mengembalikan nilai dari suatu variabel dan ditambahkan nilai input
+ketika suatu method ingin mengembalikan nilai variabelnya secara langsung 
+ 7. Jelaskan pada bagian mana proses pendeklarasian atribut pada program diatas!
+ bagian pendeklarasian atribut adalah nim, nama, alamat, dan kelas.
+   public void tampilBiodata() {
+    	System.out.println("Nim :"+nim);
+    	System.out.println("Nama :"+nama);
+    	System.out.println("Alamat :"+alamat);   
+   	System.out.println("Kelas :"+kelas); 
+ 8. Jelaskan pada bagian mana proses pendeklarasian method pada program diatas!
+ bagian pendeklarasian method adalah 101, HAFID, Jatimulyo, TI 2C, dan TampilBiodata
+	mhs1.nim=101;
+        mhs1.nama="HAFID";
+        mhs1.alamat="Jatimulyo";
+        mhs1.kelas="TI 2C";
+        mhs1.tampilBiodata(); 
+ 9. Berapa banyak objek yang di instansiasi pada program diatas!
+ 1 object yaitu Mahasiswa.java 
+ 10. Apakah yang sebenarnya dilakukan pada sintaks program “mhs1.nim=101” ?
+ yang dilakukan pada sintaks tersebut adalah untuk menginput method kedalam atribut 
+ 11. Apakah yang sebenarnya dilakukan pada sintaks program “mhs1.tampilBiodata()” ?
+ yang dilakukan pada sintaks tersebut adalah untuk menampilkan seluruh method yang ada pada atribut 
+ 12. Instansiasi 2 objek lagi pada program diatas!
+ Bagian Instasiasi 2 object ![screenshot](img/2object.jpg)
+ 
+link kode program : [contoh link ke kode program](../../src/2_Class_dan_Object/TestMahasiswa.java)
 
-## Pertanyaan
- ()
 ## Tugas
 1. Suatu toko persewaan video game salah satu yang diolah adalah peminjaman, dimana data yang dicatat ketika ada orang yang melakukan peminjaman adalah id, nama member, nama game, dan harga yang harus dibayar. Setiap peminjaman bisa menampilkan data hasil peminjaman dan harga yang harus dibayar. Buatlah class diagram pada studi kasus diatas!
 Penjelasan:
