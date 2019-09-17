@@ -45,8 +45,6 @@ link kode program : [ini link ke kode program](/../src/2_Class_and_Object/Karyaw
 
 pembuatan class mahasiswa
 
-`contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
-
 1. Bagian Mahasiswa ![screenshot](img/percobaan2.JPG)
 
 link kode program : [contoh link ke kode program](../../src/2_Class_dan_Object/Mahasiswa.java)
