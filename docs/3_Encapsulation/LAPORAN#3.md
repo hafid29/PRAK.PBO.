@@ -18,28 +18,29 @@ Setelah melakukan percobaan pada modul ini, mahasiswa memahami konsep:
 
 ### Percobaan 1 bagian Encapsulasi 
 
-1. ![screenshot](img/percobaan1.JPG)
+1. Percobaan 1![screenshot](img/percobaan1.JPG)
 
 yang janggal di hasil percobaan 1 adalah ketika mesin off kecepatan 50
 
-*link kode program : [ini link ke kode program](/../3_Encapsulation/src/Motor1941723009Hafid.java)
+*link kode program : [ini link ke kode program](../../src/3_Encapsulation/Motor1941723009Hafid.java)
 
-*link kode program : [ini link ke kode program](/../src/3_Encapsulation/MotorDemo1941723009Hafid.java)
+*link kode program : [ini link ke kode program](../../src/3_Encapsulation/MotorDemo1941723009Hafid.java)
 
-![screenshot](img/percobaan2.1jpg)
+![screenshot](img/percobaan2.1.jpg)
 
-link kode program : [ini link ke kode program](/../3_Encapsulation/src/Motor1941723009Hafid.java)
-link kode program : [ini link ke kode program](/../src/3_Encapsulasi/MotorDemo1941723009Hafid.java)
+*link kode program : [ini link ke kode program](../../src/3_Encapsulation/Motor1941723009Hafid.java)
+
+*link kode program : [ini link ke kode program](../../src/3_Encapsulation/MotorDemo1941723009Hafid.java)
 
 ### Percobaan 2 bagian Access Modifier
 
 1. Bagian Motor1941723009Hafid  ![screenshot](img/percobaan2.jpg) 
 
-link kode program : [ini link ke kode program](/../src/3_Encapsulasi/Motor1941723009Hafid.java)
+*link kode program : [ini link ke kode program](../../src/3_Encapsulation/Motor1941723009Hafid.java)
 
 2. Bagian MotorDemo1941723009Hafid ![screenshot](img/percobaan2.1.JPG)
 
-link kode program : [ini link ke kode program](/../src/3_Encapsulasi/MotorDemo1941723009Hafid.java)
+link kode program : [ini link ke kode program](../../src/3_Encapsulation/MotorDemo1941723009Hafid.java)
 ### Percobaan 2 bagian Access Modifier soal
 1. karena -kontak0n:boolean = false dan didalam perintah tambahKecepatan tertulis perintah jika kontak0n = true,
 maka kecepatan bertambah jika tidak, sistem akan menampilkan "Kecepatan tidak bisa bertambah karena Mesin Off!".
