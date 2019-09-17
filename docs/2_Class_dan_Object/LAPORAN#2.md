@@ -64,7 +64,7 @@ link kode program : [link ke kode program](../../src/2_Class_dan_Object/Barang.j
 
 link kode program : [link ke kode program](../../src/2_Class_dan_Object/testBarang.java)
 
-## 
+## Pertanyaan
 7. Apakah fungsi argumen dalam suatu method?
 fungsi argumen dalam suatu method adalah untuk menambahkan/menginput stok barang 
 8. Ambil kesimpulan tentang kegunaan dari kata kunci return , dan kapan suatu method harus memiliki return!
