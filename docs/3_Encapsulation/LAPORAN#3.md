@@ -1,4 +1,4 @@
-# Laporan Praktikum #2 - Class_dan_Object
+# Laporan Praktikum #3 - Encapsulation 
 
 ## Kompetensi
 
