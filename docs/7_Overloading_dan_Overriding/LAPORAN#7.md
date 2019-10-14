@@ -1,231 +1,161 @@
-# Laporan Praktikum #7 - Overloading dan Overriding
+# Laporan #7 - Pengantar Konsep PBO
+
+# Overloading & Overriding
 
 ## Kompetensi
 
-  Setelah menempuh pokok bahasan ini, mahasiswa mampu :
-a. Memahami konsep overloading dan overriding,
-b. Memahami perbedaan overloading dan overriding,
-c. Ketepatan dalam mengidentifikasi method overriding dan overloading
-d. Ketepatan dalam mempraktekkan instruksi pada jobsheet
-e. Mengimplementasikan method Overloading dan Overriding
-
+Setelah menempuh pokok bahasan ini, mahasiswa mampu : 
+1. Memahami konsep overloading dan overriding. 
+2. Memahami perbedaan overloading dan overriding. 
+3. Ketepatan dalam mengidentifikasi method overriding dan overloading.
+4. Ketepatan dalam mempraktekkan instruksi pada jobsheet. 
+5. Mengimplementasikan method overloading dan overriding.
+  
 ## Ringkasan Materi
 
 Overloading adalah suatu method yang mempunyai nama yang sama dan return yang boleh atau tidak sama tapi berbeda parameter artinya berbeda type data, Overloading dapat diakses ke semua class menurut kebutuhan
-Overriding adalah suatu method yang mempunyai nama class yang sama dan parameeternya juga samabegitu juga returnnya juga sama, Overriding hanya dapat diakses di class inheritance saja
+Overriding adalah suatu method yang mempunyai nama class yang sama dan parameeternya juga samabegitu juga returnnya juga sama, Overriding hanya dapat diakses di class inheritance saja 
 
 ## Percobaan
 
 ### Percobaan 1
 
-#### A. Tahapan Percobaan
+1. Percobaan pada source code Karyawan
 
-1. Percobaan pada source code ClassA1941723009Hafid.java
+![screenshot](img/karyawan.jpg)
 
-![screenshot](img/erorA.jpg)
+link kode program : [link kode](../../src/7_Overloading_dan_Overriding/Karyawan1941723009Hafid.java)
 
-2. Percobaan pada source code ClassB1941723009Hafid.java 
+2. Percobaan pada source code Manager 
 
-![screenshot](img/erorB.jpg)
+![screenshot](img/manager.jpg)
 
-3. Percobaan pada source code Percobaan1.java
+link kode program : [link kode](../../src/7_Overloading_dan_Overriding/Manager1941723009Hafid.java)
 
-![screenshot](img/erorrp1.jpg)
+3. Percobaan pada source code staff
 
-4. Percobaan Program dijalankan
+![screenshot](img/staff.jpg)
 
-![screenshot](img/erorp1.jpg)
-
-#### B. Pertanyaan
-
-1. Pada percobaan 1 diatas program yang dijalankan terjadi error, kemudian perbaiki sehingga program tersebut bisa dijalankan dan tidak error!
-Jawaban:
-
-Percobaan pada source code ClassA1941723009Hafid.java
-
-![screenshot](img/benarA.jpg)
-
-link kode program : [link kode](../../src/6_Inheritance/ClassA1941723009Hafid.java)
-
-Percobaan pada source code ClassB1941723009Hafid.java 
-
-![screenshot](img/benarB.jpg)
-
-link kode program : [link kode](../../src/6_Inheritance/ClassB1941723009Hafid.java)
-
-Percobaan pada source code Percobaan1.java
-
-![screenshot](img/benarp1.jpg)
-
-link kode program : [link kode](../../src/6_Inheritance/Percobaan1.java)
-
-2. Jelaskan apa penyebab program pada percobaan 1 ketika dijalankan terdapat error!
-Jawaban:
-Karena belum ada pendeklarasian ClassB subclass dari ClassA, harus menambahkan extends ClassA didalam ClassB.
-
-### Percobaan 2
-
-#### A. Tahapan Percobaan
-
-1. Percobaan pada source code ClassA1941723009Hafid.java
-
-![screenshot](img/erorA2.jpg)
-
-2. Percobaan pada source code ClassB1941723009Hafid.java 
-
-![screenshot](img/erorB2.jpg)
-
-3. Percobaan pada source code Percobaan1.java
-
-![screenshot](img/erorp2.jpg)
+link kode program : [link kode](../../src/7_Overloading_dan_Overriding/Staff1941723009Hafid.java)
 
 4. Percobaan Program dijalankan
 
-![screenshot](img/erorrp1.jpg)
+![screenshot](img/utama.jpg)
 
-#### B. Pertanyaan
+link kode program : [link kode](../../src/7_Overloading_dan_Overriding/Utama1941723009Hafid.java)
 
-1.	Pada percobaan 2 diatas program yang dijalankan terjadi error, kemudian perbaiki sehingga program tersebut bisa dijalankan dan tidak error!
-Jawaban:
+### Percobaan 2 (Latihan)
 
-Percobaan pada source code ClassA1941723009Hafidp2.java
+### PerkalianKu
 
-![screenshot](img/benarA2.jpg)
+1. latihan pada source code PerkalianKu
 
-link kode program : [link kode](../../src/6_Inheritance/ClassA1941723009Hafidp2.java)
+![screenshot PerkalianKu1](img/perkalianku.jpg)
 
-Percobaan pada source code ClassB1941723009Hafidp2.java 
+## Pertanyaan
 
-![screenshot](img/benarB2.jpg)
+1. Dari source coding diatas terletak dimanakah overloading
+	Jawab:
+	Berada di void perkalian yang berparameter(int a, int b) 
 
-link kode program : [link kode](../../src/6_Inheritance/ClassB1941723009Hafidp2.java)
+2. Jika terdapat overloading ada berapa jumlah parameter yang berbeda? 
+	Jawab:
+	Ada 2 parameter
 
-Percobaan pada source code Percobaan2.java
+link kode program : [link kode](../../src/7_Overloading_dan_Overriding/PerkalianKu1941723009Hafid.java)
 
-![screenshot](img/benarp2.jpg)
+### PerkalianKu2
 
-link kode program : [link kode](../../src/6_Inheritance/Percobaan1.java)
+2. latihan pada source code PerkalianKu2
 
-2. Jelaskan apa penyebab program pada percobaan 1 ketika dijalankan terdapat error!
-Jawaban:
-belum ada pendeklarasian ClassB subclass dari ClassA, harus menambahkan public class ClassB extends ClassA. Dan access modifier dari x dan y diganti protected agar bisa diakses oleh subclassnya sendiri.
+![screenshot PerkalianKu2](img/perkalianKu2.jpg)
 
-### Percobaan 3
+## Pertanyaan
 
-#### A. Tahapan Percobaan
+3.  Dari source coding diatas terletak dimanakah overloading? 
+	Jawab:
+	Berada di void yang berparameter(int a, int b) dan (double a, double b)
 
-1. Percobaan pada source code Bangun1941723009Hafid.java
+4. Jika terdapat overloading ada berapa tipe parameter yang berbeda? 
+	Jawab:
+	Ada dua tipe data yaitu int dan double
+	
+link kode program : [link kode](../../src/7_Overloading_dan_Overriding/PerkalianKu21941723009Hafid.java)
 
-![screenshot](img/bangunp3.jpg)
+### Ikan
 
-link kode program : [link kode](../../src/6_Inheritance/Bangun1941723009Hafid.java)
+1. latihan pada source code Ikan
 
-2. Percobaan pada source code Tabung1941723009Hafid.java 
+![screenshot Ikan](img/ikan.jpg)
 
-![screenshot](img/tabungp3.jpg)
+link kode program : [link kode](../../src/7_Overloading_dan_Overriding/Ikan1941723009Hafid.java)
 
-link kode program : [link kode](../../src/6_Inheritance/Tabung1941723009Hafid.java)
+2. latihan pada source code Piranha
 
-3. Percobaan pada source code Percobaan3.java
+![screenshot Ikan](img/piranha.jpg)
 
-![screenshot](img/mainp3.jpg)
+link kode program : [link kode](../../src/7_Overloading_dan_Overriding/Piranha1941723009Hafid.java)
 
-link kode program : [link kode](../../src/6_Inheritance/percobaan3.java)
+3. latihan pada source code Fish
 
-#### B. Pertanyaan
+![screenshot Ikan](img/fish.jpg)
 
-1. Jelaskan fungsi “super” pada potongan program berikut di class Tabung!
-![screenshot](img/pertanyaanp3.JPG)
-Jawaban:
-berfungsi untuk memanggil atribut di dalam kelas induk
+link kode program : [link kode](../../src/7_Overloading_dan_Overriding/Fish1941723009Hafid.java)
 
+## Pertanyaan
 
-2.	Jelaskan fungsi “super” dan “this” pada potongan program berikut di class Tabung!
-![screenshot](img/pertanyaanp3.1.JPG)
-Jawaban:
-Super memanggil atribut memilih class extendsnya, this menunjukkan atribut yang dimiliki class itu sendiri
+5. Dari source coding diatas terletak dimanakah overriding? 
+	Jawab:
+	
+![screenshot Ikan](img/ikanpj.jpg)
 
-3.	Jelaskan mengapa pada class Tabung tidak dideklarasikan atribut “phi” dan “r” tetapi class tersebut dapat mengakses atribut tersebut!
-Jawaban:
-Karena Class Tabung subclass dari class Bangun, phi dan r adalah atribut dari class Bangun yang memiliki acces modifier protected
+6. Jabarkanlah apabila sourcoding diatas jika terdapat overriding?
+	Jawab:
+	Overriding Merupakan Suatu Keadaan Dimana kelas fish dan piranha dapat mengubah atau bisa kita bilang memodifikasi atau memperluas data dan method pada kelas ikan
+ 
+link kode program : [link kode](../../src/7_Overloading_dan_Overriding/Ikan1941723009Hafid.java)
 
-### Percobaan 4
-
-#### A. Tahapan Percobaan
-
-1. Percobaan pada source code ClassA41941723009Hafid.java
-
-![screenshot](img/Ap4.jpg)
-
-link kode program : [link kode](../../src/6_Inheritance/ClassA41941723009Hafid.java)
-
-2. Percobaan pada source code ClassB41941723009Hafid.java 
-
-![screenshot](img/Bp4.jpg)
-
-link kode program : [link kode](../../src/6_Inheritance/ClassB41941723009Hafid.java)
-
-3. Percobaan pada source code ClassC41941723009Hafid.java 
-
-![screenshot](img/Cp4.jpg)
-
-link kode program : [link kode](../../src/6_Inheritance/ClassC41941723009Hafid.java)
-
-4. Percobaan pada source code Percobaan4.java
-
-![screenshot](img/mainp4.jpg)
-
-link kode program : [link kode](../../src/6_Inheritance/percobaan4.java)
-
-#### B. Pertanyaan
-
-1.	Pada percobaan 4 sebutkan mana class yang termasuk superclass dan subclass, kemudian jelaskan alasannya!
-Jawaban:
-Superclass: ClassA4 dan ClassB4
-Subclass: ClassB4 dan ClassC4
-Karena ClassB4 mengextends dari class ClassA4 dan ClassC4 mengextends lagi ke class ClassB4
-
-2.	Ubahlah isi konstruktor default ClassC seperti berikut:
-  ![screenshot](img/p42.JPG)
-Tambahkan kata super() di baris Pertaman dalam konstruktor defaultnya. Coba jalankan kembali class Percobaan4 dan terlihat tidak ada perbedaan dari hasil outputnya!
-Jawaban:
-
-3.	Ublah isi konstruktor default ClassC seperti berikut:
-![screenshot](img/p42.1.jpg)
-Ketika mengubah posisi super() dibaris kedua dalam kontruktor defaultnya dan terlihat ada error. Kemudian kembalikan super() kebaris pertama seperti sebelumnya, maka errornya akan hilang.
-Perhatikan hasil keluaran ketika class Percobaan4 dijalankan. Kenapa bisa tampil output seperti berikut pada saat instansiasi objek test dari class ClassC
-![screenshot](img/hasilp4.JPG) 
-Jelaskan bagaimana urutan proses jalannya konstruktor saat objek test dibuat!
-Jawaban:
-ClassC4 dengan  menambakan super() berfungsi untuk memanggil konstruktor parent class /superclass, jika tidak dipanggil konstruktor class parent akan terpanggil.
-
-4.	Apakah fungsi super() pada potongan program dibawah ini di ClassC!
-![screenshot](img/p42.JPG)
-Jawaban:
-memanggil konstruktor parent class /superclass
-
-### Percobaan 5
-(Menyusul Pak Habibie)
-#### A. Tahapan Percobaan
-(Menyusul Pak Habibie)
-#### B. Pertanyaan
-(Menyusul Pak Habibie)
-### Percobaan 6
-(Menyusul Pak Habibie)
-#### A. Tahapan Percobaan
-(Menyusul Pak Habibie)
-#### B. Pertanyaan
-(Menyusul Pak Habibie)
 ## Tugas
-(Menyusul Pak Habibie)
+
+### Overloading Segitiga
+
+1. latihan pada source code Segitiga
+
+![screenshot Segitiga](img/segitiga.jpg)
+
+link kode program : [link kode](../../src/7_Overloading_dan_Overriding/Segitiga1941723009Hafid.java)
+
+### Overriding Manusia
+
+2. latihan pada source code Manusia
+
+![screenshot Manusia](img/manusia.jpg)
+
+link kode program : [link kode](../../src/7_Overloading_dan_Overriding/Manusia1941723009Hafid.java)
+
+3. latihan pada source code Dosen
+
+![screenshot Dosen](img/dosen.jpg)
+
+link kode program : [link kode](../../src/7_Overloading_dan_Overriding/Dosen1941723009Hafid.java)
+
+4. latihan pada source code Mahasiswa
+
+![screenshot Mahasiswa](img/mahasiswa.jpg)
+
+link kode program : [link kode](../../src/7_Overloading_dan_Overriding/Mahasiswa1941723009Hafid.java)
+
+
+
 ## Kesimpulan
-(Menyusul Pak Habibie)
+
+Overloading adalah suatu method yang mempunyai nama yang sama dan return yang boleh atau tidak sama tapi berbeda parameter artinya berbeda type data, Overloading dapat diakses ke semua class menurut kebutuhan Overriding adalah suatu method yang mempunyai nama class yang sama dan parameeternya juga samabegitu juga returnnya juga sama, Overriding hanya dapat diakses di class inheritance saja
 ## Pernyataan Diri
 
-Saya menyatakan isi tugas, kode program, dan laporan praktikum ini dibuat oleh saya sendiri. Saya tidak melakukan plagiasi, kecurangan, menyalin/menggandakan milik orang lain.
+	Saya menyatakan isi tugas, kode program, dan laporan praktikum ini dibuat oleh saya sendiri. Saya tidak melakukan plagiasi, kecurangan, menyalin/menggandakan milik orang lain.
 
-Jika saya melakukan plagiasi, kecurangan, atau melanggar hak kekayaan intelektual, saya siap untuk mendapat sanksi atau hukuman sesuai peraturan perundang-undangan yang berlaku.
+	Jika saya melakukan plagiasi, kecurangan, atau melanggar hak kekayaan intelektual, saya siap untuk mendapat sanksi atau hukuman sesuai peraturan perundang-undangan yang berlaku.
 
-Ttd,
+	Ttd,
 
-HAFID ALI RAHMAN WIBISANA
+	(Hafid Ali Rahman Wibisana)
