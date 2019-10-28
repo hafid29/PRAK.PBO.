@@ -1,6 +1,6 @@
-# Laporan #7 - Pengantar Konsep PBO
+# Laporan #8 - Pengantar Konsep PBO
 
-# Overloading & Overriding
+# Abstract Class dan Interface
 
 ## Kompetensi
 
@@ -37,7 +37,11 @@ diawali dengan huruf kapital ‘I’.
 link kode program : [link kode](../../src/8_Abstract_Class_dan_Interface/Program11941723009Hafid.java)
 
 ### Pertanyaan diskusi
-a. boleh sebuah class yang meng-extend suatu abstract class tidak mengimplementasikan method abstract yang ada di kelas induknya 
+a. Bolehkah apabila sebuah class yang meng-extend suatu abstract class tidak
+mengimplementasikan method abstract yang ada di class induknya?
+Buktikan!
+### jawab :
+boleh sebuah class yang meng-extend suatu abstract class tidak mengimplementasikan method abstract yang ada di kelas induknya 
 
 ![screenshot](img/a1.jpg)
 
@@ -52,21 +56,39 @@ link kode program : [link kode](../../src/8_Abstract_Class_dan_Interface/Program
 
 ### Pertanyaan diskusi
 
-a. Karena class mahasiswa belum mengimplementasikan classnya ke class induk interface dan belum memenuhi syarat method yang terdapat di class induk, syarat method dari induk ke anaknya terdapat 1 method apabila ada satu akan terjadi eror maka jika tidak terjadi eror harus menambahkan semua method yang ada di class interface
+a. Mengapa pada langkah nomor 9 terjadi error? Jelaskan! 
 
-b. bisa karena objectCumlaude pada class sarjana terdapat method yang diextends dari class mahasiswa dan diimplementasikan di class interfaceCumlaude atau induk
+### jawab :
+Karena class mahasiswa belum mengimplementasikan classnya ke class induk interface dan belum memenuhi syarat method yang terdapat di class induk, syarat method dari induk ke anaknya terdapat 1 method apabila ada satu akan terjadi eror maka jika tidak terjadi eror harus menambahkan semua method yang ada di class interface
 
-c. dapat karena terdapat method kuliahDiKampus disemua class biasa yang berimplementasikan ke class interface/induk
+b. Dapatkah method kuliahDiKampus() dipanggil dari objek
+sarjanaCumlaude di class Program? Mengapa demikian?
+### jawab : 
+bisa karena objectCumlaude pada class sarjana terdapat method yang diextends dari class mahasiswa dan diimplementasikan di class interfaceCumlaude atau induk
+
+c. Dapatkah method kuliahDiKampus() dipanggil dari parameter mahasiswa
+di method beriSertifikatCumlaude() pada class Rektor? Mengapa
+demikian?
+### jawab :
+dapat karena terdapat method kuliahDiKampus disemua class biasa yang berimplementasikan ke class interface/induk
 
 ![screenshot](img/c2.jpg)
 
-d. ![screenshot](img/maind.jpg)
+d. Modifikasilah method beriSertifikatCumlaude() pada class Rektor agar
+hasil eksekusi class Program menjadi seperti berikut:
+### jawab
+![screenshot](img/maind.jpg)
 
 ### Percobaan 3
 
 1. Percobaan pada Multiple Interface Implementation
 
-a. ![screenshot](img/main3.jpg)
+a. Apabila Sarjana Berprestasi harus menjuarai kompetisi NASIONAL dan
+menerbitkan artikel di jurnal NASIONAL, maka modifikasilah class-class
+yang terkait pada aplikasi Anda agar di class Program objek pakRektor
+dapat memberikan sertifikat mawapres pada objek sarjanaCumlaude
+### jawab :
+![screenshot](img/main3.jpg)
 
 link kode program : [link kode](../../src/8_Abstract_Class_dan_Interface/Program21941723009Hafid.java)
 
