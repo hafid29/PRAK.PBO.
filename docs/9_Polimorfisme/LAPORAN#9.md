@@ -6,10 +6,15 @@
 
 Setelah melakukan percobaan pada jobsheet ini, diharapkan mahasiswa
 mampu:
-a. Memahami konsep dan bentuk dasar polimorfisme
-b. Memahami konsep virtual method invication
+
+a. Memahami konsep dan bentuk dasar polimorfisme.
+
+b. Memahami konsep virtual method invication.
+
 c. Menerapkan polimorfisme pada pembuatan heterogeneous collection
+
 d. Menerapkan polimorfisme pada parameter/argument method
+
 e. Menerapkan object casting untuk meng-ubah bentuk objek
   
 ## Ringkasan Materi
@@ -97,7 +102,6 @@ p = iEmp;
 Karena Class Interface Payable tidak mengimplementasikan ke kelas InternshipEmployee
 e = Bill;
 Karena Class Employee hanya menurunkan 2 Class yaitu Class InternshipEmployee dan PermanentEmployee, ElectricityEmployee tidak termasuk Class turunan dari Employee
-
 
 6. Ambil kesimpulan tentang konsep/bentuk dasar polimorfisme!
 jawab : 
