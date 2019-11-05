@@ -173,7 +173,7 @@ link kode program : [link kode](../../src/9_Tester41941723009Hafid.java)
 
 3. Hasil Output
 
-![screenshot](img/output4.jpg)
+![screenshot](img/output4.JPG)
 
 link kode program : [link kode](../../src/9_Tester41941723009Hafid.java)
 
@@ -214,7 +214,7 @@ link kode program : [link kode](../../src/9_TesterTugas1941723009Hafid.java)
 
 2. hasil Output
 
-![screenshot](img/outputtugas.jpg)
+![screenshot](img/outputtugas.JPG)
 
 ## Kesimpulan
 
