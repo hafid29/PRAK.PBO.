@@ -116,7 +116,7 @@ kesimpulannya adalah suatu objek dapat berubah bentuk dari class turunannya menj
 
 link kode program : [link kode](../../src/9_Tester21941723009Hafid.java)
 
-![screenshot](img/output2.jpg)
+![screenshot](img/output2.JPG)
 
 ### Pertanyaan
 
