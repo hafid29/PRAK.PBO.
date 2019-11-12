@@ -1,4 +1,4 @@
-# Laporan #8 - Pengantar Konsep PBO
+# Laporan #9 - Pengantar Konsep PBO
 
 # Abstract Class dan Interface
 
@@ -34,7 +34,7 @@ diawali dengan huruf kapital ‘I’.
 
 ![screenshot](img/main1.jpg)
 
-link kode program : [link kode](../../src/8_Abstract_Class_dan_Interface/Program11941723009Hafid.java)
+link kode program : [link kode](../../src/9_Abstract_Class_dan_Interface/Program11941723009Hafid.java)
 
 ### Pertanyaan diskusi
 a. Bolehkah apabila sebuah class yang meng-extend suatu abstract class tidak
@@ -52,7 +52,7 @@ boleh sebuah class yang meng-extend suatu abstract class tidak mengimplementasik
 
 ![screenshot](img/main2.jpg)
 
-link kode program : [link kode](../../src/8_Abstract_Class_dan_Interface/Program21941723009Hafid.java)
+link kode program : [link kode](../../src/9_Abstract_Class_dan_Interface/Program21941723009Hafid.java)
 
 ### Pertanyaan diskusi
 
@@ -90,7 +90,7 @@ dapat memberikan sertifikat mawapres pada objek sarjanaCumlaude
 ### jawab :
 ![screenshot](img/main3.jpg)
 
-link kode program : [link kode](../../src/8_Abstract_Class_dan_Interface/Program21941723009Hafid.java)
+link kode program : [link kode](../../src/9_Abstract_Class_dan_Interface/Program21941723009Hafid.java)
 
 
 

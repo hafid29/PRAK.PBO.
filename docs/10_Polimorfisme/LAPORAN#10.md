@@ -1,4 +1,4 @@
-# Laporan #9 - Pengantar Konsep PBO
+# Laporan #10 - Pengantar Konsep PBO
 
 # Polimorfisme
 
@@ -44,37 +44,37 @@ ini termasuk ke upcasting.
 
 ![screenshot](img/employee.jpg)
 
-link kode program : [link kode](../../src/9_Employee1941723009Hafid.java)
+link kode program : [link kode](../../src/10_Polimorfisme/Employee1941723009Hafid.java)
 
 2. Percobaan pada interface Payable
 
 ![screenshot](img/payable.jpg)
 
-link kode program : [link kode](../../src/9_IPayable1941723009Hafid.java)
+link kode program : [link kode](../../src/10_Polimorfisme/IPayable1941723009Hafid.java)
 
 3. Percobaan pada class InternshipEmployee
 
 ![screenshot](img/inter.jpg)
 
-link kode program : [link kode](../../src/9_InternshipEmployee1941723009Hafid.java)
+link kode program : [link kode](../../src/10_Polimorfisme/InternshipEmployee1941723009Hafid.java)
 
 4. Percobaan pada class PermanentEmployee
 
 ![screenshot](img/permanent.jpg)
 
-link kode program : [link kode](../../src/9_PermanentEmployee1941723009Hafid.java)
+link kode program : [link kode](../../src/10_Polimorfisme/PermanentEmployee1941723009Hafid.java)
 
 5. Percobaan pada class ElectricityBill
 
 ![screenshot](img/bill.jpg)
 
-link kode program : [link kode](../../src/9_ElectricityBill1941723009Hafid.java)
+link kode program : [link kode](../../src/10_Polimorfisme/ElectricityBill1941723009Hafid.java)
 
 6. Percobaan pada class Tester1
 
 ![screenshot](img/tester1.jpg)
 
-link kode program : [link kode](../../src/9_Tester11941723009Hafid.java)
+link kode program : [link kode](../../src/10_Polimorfisme/Tester11941723009Hafid.java)
 
 ### Pertanyaan
 1. Class apa sajakah yang merupakan turunan dari class Employee?
@@ -114,7 +114,7 @@ kesimpulannya adalah suatu objek dapat berubah bentuk dari class turunannya menj
 
 ![screenshot](img/tester2.jpg)
 
-link kode program : [link kode](../../src/9_Tester21941723009Hafid.java)
+link kode program : [link kode](../../src/10_Polimorfisme/Tester21941723009Hafid.java)
 
 ![screenshot](img/output2.JPG)
 
@@ -143,7 +143,7 @@ dikenali oleh compiler dan method yang dijalankan oleh JVM berbeda. disebut virt
 
 ![screenshot](img/tester3.jpg)
 
-link kode program : [link kode](../../src/9_Tester31941723009Hafid.java)
+link kode program : [link kode](../../src/10_Polimorfisme/Tester31941723009Hafid.java)
 
 ### Pertanyaan
 
@@ -163,19 +163,19 @@ Karena Di Class Parent Employee tidak mengextends ke Class ElectricityBill
 
 ![screenshot](img/owner.jpg)
 
-link kode program : [link kode](../../src/9_Owner1941723009Hafid.java)
+link kode program : [link kode](../../src/10_Polimorfisme/Owner1941723009Hafid.java)
 
 2. Percobaan pada class Tester4
 
 ![screenshot](img/tester4.jpg)
 
-link kode program : [link kode](../../src/9_Tester41941723009Hafid.java)
+link kode program : [link kode](../../src/10_Polimorfisme/Tester41941723009Hafid.java)
 
 3. Hasil Output
 
 ![screenshot](img/output4.JPG)
 
-link kode program : [link kode](../../src/9_Tester41941723009Hafid.java)
+link kode program : [link kode](../../src/10_Polimorfisme/Tester41941723009Hafid.java)
 
 ### Pertanyaan
 
@@ -210,7 +210,7 @@ Karena untuk mengecek instanceof parent dan subclassnya dengan cara menghubungka
 
 ![screenshot](img/maintugas.jpg)
 
-link kode program : [link kode](../../src/9_TesterTugas1941723009Hafid.java)
+link kode program : [link kode](../../src/10_Polimorfisme/TesterTugas1941723009Hafid.java)
 
 2. hasil Output
 
