@@ -112,7 +112,7 @@ menampilkan pesan peringatan
 JOptionPane.showMessageDialog(null, "Belum diisi!!!"+JOptionPane.WARNING_MESSAGE);
 ,... maaf pak saya coba pakek perintah ini hasilnya tetap sama aja
 
-### Percobaan 4
+### Percobaan 5
 
 
 1. Percobaan pada swing
