@@ -1,163 +1,241 @@
-# Laporan #11 - Pengantar Konsep PBO
+# Laporan #12 - Pengantar Konsep PBO
 
-# GUI(Graphical User Interface)
+# Java_API_dan_Database
 
 ## Kompetensi
 
-Setelah menyelesaikan lembar kerja ini mahasiswa diharapkan mampu:
-1. Membuat aplikasi Graphical User Interface sederhana dengan bahasa pemrograman java;
-2. Mengenal komponen GUI seperti frame, label, textfield, combobox, radiobutton, checkbox,
-textarea, menu, serta table;
-3. Menambahkan event handling pada aplikasi GUI  
+1. Tujuan Pembelajaran
+ Memahami cara penyimpanan objek menggunakan Collection dan Map.
+ Mengetahui pengelompokan dari Collection.
+ Mengetahui perbedaan dari interface Set, List dan Map.
+ Mengetahui penggunaan class-class dari interface Set, List, dan Map.
+ Memahami koneksi database menggunakan JDBC dan JDBC API  
+
 ## Ringkasan Materi
- GUI adalah sebuah interface antara user dengan program dengan tampilan grafis.
- Bagian dalam GUI ada 4 :
-1. Membuat windows utama
-2. Menentukan komponen-komponen pendukung program
-3. Menentukan tata letak layout agar nantinya semua komponen – komponen yang sudah
-dipersiapkan bisa diaatur sedemikian rupa
-4. Event Handling dari sebuah aktivitas, seperti penekanan button, check box dan lain-lain,
-Java Swing merupakan bagian dari JFC (Java Foundation Classes) yang menyediakan API untuk
-menangani hal yang berkaitan dengan GUI bagi program Java. Kita bisa membedakan komponen
-Swing dengan komponen AWT, di mana pada umumnya kelas-kelas yang berada dalam komponen
-Swing diawali dengan huruf J, misal: JButton, JLabel, JTextField, JRadioButton.
+Collection adalah suatu objek yang bisa digunakan untuk menyimpan sekumpulan objek.
+Objek yang ada dalam Collection disebut elemen. Collection menyimpan elemen yang bertipe
+Object, sehingga berbagai tipe object bisa disimpan dalam Collection.
+Set mengikuti model himpunan, dimana objek/anggota yang tersimpan dalam Set harus
+unik. Urutan maupun letak dari anggota tidak penting, hanya keberadaan anggota saja yang
+penting. Kelas konkrit yang mengimplementasikan Set harus memastikan bahwa tidak terdapat
+elemen duplikat yang dapat ditambahkan ke dalam set.
+List digunakan untuk menyimpan sekumpulan objek berdasarkan urutan masuk (ordered)
+dan menerima duplikat. Cara penyimpanannya seperti array, oleh sebab itu memiliki posisi
+awal dan posisi akhir, menyisipkan objek pada posisi tertentu, mengakses dan menghapus isi
+list, dimana semua proses ini selalu didasarkan pada urutannya.
+ArrayList digunakan untuk membuat array yang ukurannya dinamis.
+HashMap adalah class implementasi dar Map, Map itu sendiri adalah interface yang
+memiliki fungsi untuk memetakan nilai dengan key unik.
+HashMap berfungsi sebagai memory
+record management, dimana setiap record dapat disimpan dalam sebuah Map.
+JDBC API merupakan Java Database Connectivity Application Programming Interface (
+JDBC API). Pada dasarnya JDBC API terdiri dari satu set kelas dan interface yang digunakan
+untuk berinteraksi dengan database dari aplikasi Java.
+
 
 ## Percobaan
 
 ### Percobaan 1
 
-1. Percobaan pada JFrame HelloGUI
+1. Class DemoHasbSet1941723009Hafid
 
-![screenshot](img/main1.JPG)
+![screenshot](img/maindemo.jpg)
 
-link kode program : [link kode](../../src/11_GUI/HelloGui1941723009Hafid.java)
+link kode program : [link kode](../../src/12_Java_API_dan_Database/DemoHasbSet1941723009Hafid.java)
+
+### Pertanyaan
+1. Apakah fungsi import java.util.*; pada program diatas!
+
+### jawab soal 1
+fungsi import java.util.* adalah untuk memasukkan semua fungsi yang ada di dalam java.util
+
+2. Pada baris program keberapakah yang berfungsi untuk menciptakan object HashSet?
+
+### jawab soal 2
+di project saya baris yang berfungsi untuk menciptakan object HashSet adalah pada baris ke 17 yang bertuliskan "Set mSetCity = new HashSet();"
+
+3. Apakah fungsi potongan program dibawah ini pada percobaan 1! 
+
+### jawab soal 3
+potongan tersebut berfungsi untuk menambahan atau memasukkan nilai variabel
+
+4. Tambahkan set.add(“Malang”); kemudian jalankan program! Amati hasilnya dan jelaskan
+mengapa terjadi error!
+
+### jawab soal 4
+karena harus menambahkan fungsi didalam Set dengan fungsi import static java.lang.reflect.Array.set;
+
+5. Jelaskan fungsi potongan program dibawah ini pada percobaan 1!
+
+### jawab soal 5
+fungsi potongan tersebut adalah untuk memfungsikan method dan menampilkan isi method
 
 ### Percobaan 2 
 
-1. Percobaan pada input pada GUI
-![screenshot](img/main2.JPG)
+1. Class CobaArrayList1941723009Hafid
+![screenshot](img/mainarray.jpg)
 
-link kode program : [link kode](../../src/11_GUI/Main21941723009Hafid.java)
-
-![screenshot](img/input2.JPG)
-
-link kode program : [link kode](../../src/11_GUI/MyInputForm1941723009Hafid.java)
+link kode program : [link kode](../../src/12_Java_API_dan_Database/CobaArrayList1941723009Hafid.java)
 
 ### Pertanyaan
 
-Modifikasi kode program dengan menambahkan JButton baru untuk melakukan fungsi
-perhitungan penambahan, sehingga ketika button di klik (event click) maka akan
-menampilkan hasil penambahan dari nilai A dan B
+1. Apakah fungsi potongan program dibawah ini!
 
-![screenshot](img/soal1.jpg)
+### jawab soal 1
+potongan program ini berfungsi untuk menampilkan array index ke 0 dan ke 2 yaitu indonesia dan german
 
-dengan menambahkan method overriding dan menambah kan fungsi button
+2. Ganti potongan program pada soal no 1 menjadi sebagai berikut
+Kemudian jalankan program tersebut!
+
+### jawab soal 2
+![screenshot](img/soal2p2.jpg)
+
+3. Jelaskan perbedaan menampilkan data pada ArrayList menggunakan potongan program pada
+soal no 1 dan no 2!
+
+### jawab soal 3
+perbedaannya soal 1 dan 2 adalah pengurutan array pada index
 
 ### Percobaan 3
 
-1. Percobaan pada Manajemen Layout
+1. Class DemoHashMap1941723009Hafid
 
-![screenshot](img/border.jpg)
+![screenshot](img/maindemohashmap.jpg)
 
-link kode program : [link kode](../../src/11_GUI/Border1941723009Hafid.java)
-
-![screenshot](img/grid.jpg)
-
-link kode program : [link kode](../../src/11_GUI/Grid1941723009Hafid.java)
-
-![screenshot](img/box.jpg)
-
-link kode program : [link kode](../../src/11_GUI/Box1941723009Hafid.java)
-
-![screenshot](img/main3.jpg)
-
-link kode program : [link kode](../../src/11_GUI/Main31941723009Hafid.java)
+link kode program : [link kode](../../src/12_Java_API_dan_Database/DemoHashMap1941723009Hafid.java)
 
 ### Pertanyaan
 
-a) Apa perbedaan dari Grid Layout, Box Layout dan Border Layout?
-### jawab:
-grid layout terdapat button dengan posisi tabel 4x2 yaitu 4 baris dan 2 kolom, sedangkan box layout terdapat button yang berbentuk serializabel
-b) Apakah fungsi dari masing-masing kode berikut?
-### jawab :
-fungsi dari masing masing kode berikut adalah instasiasi object jframe, menampilkan frame, dan membuat operasi exit_on_close yang berguna untuk keluar dari frame
+1. Jelaskan fungsi hMapItem.put("1","Biskuit") pada program!
+
+### jawab soal 1
+berfungsi untuk meletakan nilai pada object hMapItem
+
+2. Jelaskan fungsi hMapItem.size() pada program!
+
+### jawab soal 2
+berfungsi untuk menjumlahkan object yang ada pada HashMap
+
+3. Jelaskan fungsi hMapItem.remove("1") pada program!
+
+### jawab soal 3 
+berfungsi untuk menghapus salah satu object dengan memasukan code nilai yang di hapus
+
+4. Jelaskan fungsi hMapItem.clear() pada program!
+
+### jawab soal 4
+berfungsi untuk menghapus semua object yang ada di HashMap 
+
+5. Tambahkan kode program yang di blok pada program yang sudah anda buat!
+
+### jawab soal 5
+
+![screenshot](img/soal5p3.jpg)
+
+6. Jalankan program dan amati apa yang terjadi!
+
+### jawab soal 6
+
+![screenshot](img/soal6p3.jpg)
+
+yang terjadi adalah keluarnya suatu nilai object secara berurutan sesuai kode nilai
+
+7. Apakah perbedaan program sebelumnya dan setelah ditambahkan kode program pada soal no
+5 diatas? Jelaskan
+
+### jawab soal 7
+
+sebelumnya object hanya mengisi nilai dengan mengurutkan secara manual
+sedangkan soal no 5 mengurutkan nilai dengan fungi method next yang berfungsi untuk menampilkan object secara berurutkan sesuai nilai object yang di isi
 
 ### Percobaan 4
 
-1. Percobaan pada class swing
+1. Class InputData1941723009Hafid
 
-![screenshot](img/guip4.jpg)
+![screenshot](img/inputdata.jpg)
 
-link kode program : [link kode](../../src/11_GUI/swing.java)
+link kode program : [link kode](../../src/12_Java_API_dan_Database/InputData1941723009Hafid.java)
 
-2. ini frame gui percobaan 4 yang belum dijalankan
-![screenshot](img/mentahangui.jpg)
+2. Class Mahasiswa1941723009Hafid
 
-3. tampilan source code swing percobaan 4
+![screenshot](img/mahasiswa.jpg)
 
-![screenshot](img/srcgui.jpg)
+link kode program : [link kode](../../src/12_Java_API_dan_Database/Mahasiswa1941723009Hafid.java)
 
-### Pertanyaan
+3. Class TampilGui1941723009Hafid
 
-a) Apakah fungsi dari kode berikut?
-### jawab :
-berfungsi untuk perintah menjalankan program gui
-b) Mengapa pada bagian logika checkbox dan radio button digunakan multiple if ?
-### jawab :
-karena terdapat lebih dari 1 pilihan didalam checkbox dan radio button
-c) Lakukan modifikasi pada program untuk melakukan menambahkan inputan berupa alamat
-dan berikan fungsi pemeriksaan pada nilai Alamat tersebut jika belum diisi dengan
-menampilkan pesan peringatan
-### jawab :
-JOptionPane.showMessageDialog(null, "Belum diisi!!!"+JOptionPane.WARNING_MESSAGE);
-,... maaf pak saya coba pakek perintah ini hasilnya tetap sama aja
+![screenshot](img/maintampilgui.jpg)
 
-### Percobaan 4
+link kode program : [link kode](../../src/12_Java_API_dan_Database/TampilGui1941723009Hafid.java)
 
 
-1. Percobaan pada swing
+### Percobaan 5
 
-![screenshot](img/main5.jpg)
 
-link kode program : [link kode](../../src/11_GUI/swing21941723009Hafid.java)
-
-2. tampilan source code pada swing percobaan 5
-
-![screenshot](img/src5.jpg)
-
-### Pertanyaan
-
-a) Apa kegunaan komponen swing JTabPane,JTtree, pada percobaan5?
-### jawab
-komponen JTabpane berfungsi sebagai menu pilihan dan JTree sebagai pembuatan folder yang ada didalam form tersebut yaitu halaman 3
-b) Modifikasi program untuk menambahkan komponen JTable pada tab Halaman 1 dan tab
-Halaman 2
-### jawab :
-1. Pada Halaman 1
-
-![screenshot](img/halaman1.jpg)
-
-2. Pada Halaman 2
-
-![screenshot](img/halaman2.jpg)
-
-### Asigment
-
-1. Percobaan pada class kalkulator
-
-![screenshot](img/mainkalkulator.jpg)
-
-link kode program : [link kode](../../src/11_GUI/Kalkulator1941723009Hafid.java)
-
-2. mentahan Kalkulator dan src kalkulator
-
-![screenshot](img/mentahankalkulator.jpg)
-
-![screenshot](img/srckalkulator.jpg)
+1. Buatlah Package baru dengan nama Biodata atau membuat project baru dengan cara
+a. File  New Project
+b. Pilih categories  Java dengan Projects  Java Application  klik next
+c. Isi nama Project dengan Biodata dan atur letak project akan disimpan
+d. Kemudian tambahkan Jframe Form dengan nama FormKoneksi.
+e. Desain FormKoneksi seperti berikut2. Langkah selanjutnya tambahkan libraries, dengan cara klik kanan pada Libraries. Kemudian
+pilih add library dan pilih MySQL JDBC Driver.
+Tampilan Libraries setelah ditambah MySQL JDBC Driver.
+3. Pada tahap ini aplikasi sudah siap untuk bertransaksi dengan database yang sudah kita buat
+pada langkah 1. Selanjutnya kita buat method untuk melakukan koneksi dengan database,
+seperti berikut:Pada method buka_koneksi untuk variabel url terdapat angka 6606 adalah port mysql yang
+digunakan oleh penulis. Pada umumnya port mysql secara default adalah 3306. Sedangkan
+untuk Biodata adalah nama database yang digunakan oleh penulis.
+4. Pada button add klik tambahkan code sebagai berikut:
+buka_koneksi();
+String sqlkode="Insert into anggota (nama,alamat,telp) "
++ "values ('"+this.jTFNama.getText()+"',"
++ "'"+this.jTFAlamat.getText()+"',"
++ "'"+this.jTFTelepon.getText()+"')";
+try {
+PreparedStatement mStatement = koneksi.prepareStatement(sqlkode);
+mStatement.executeUpdate();
+mStatement.close();
+JOptionPane.showMessageDialog(this,"Data Berhasil Ditambah");
+} catch (SQLException ex) {
+JOptionPane.showMessageDialog(this,"Terjadi Kesalahan "+ex.getMessage());
+}
+5. Setelah menambah code pada action button klik, coba jalankan program dan tambahkan
+data. Apakah program berhasil menambahkan data? Jika tidak apakah penyebabnya.
+.................................................................
+6. Jelaskan maksud source code untuk melakukan insert data diatas?
+.................................................................
+7. Buat Table model yang digunakan untuk memanipulasi tampilan pada Jtable, seperti pada
+code dibawah ini:8. Selanjutnya buat method ambil_data_tabel seperti berikut
+private void ambil_data_tabel() {
+model.getDataVector().removeAllElements();
+model.fireTableDataChanged();
+try {
+buka_koneksi();
+Statement s = koneksi.createStatement();
+String sql = "Select * from anggota";
+ResultSet r = s.executeQuery(sql);
+while (r.next()) {
+Object[] o = new Object[4];
+o[0] = r.getString("id");
+o[1] = r.getString("nama");
+o[2] = r.getString("alamat");
+o[3] = r.getString("telp");
+model.addRow(o);
+}
+r.close();
+s.close();
+} catch (SQLException e) {
+JOptionPane.showMessageDialog(this,"Terjadi kesalahan " + e.getMessage());
+}
+}
+Jalankan program maka data yang sudah kita add akan tampil seperti berikut:9. Jelaskan alur dari method ambil_data_tabel?
+...........
+10. Buat fungsi untuk merefresh sehingga data yang baru dapat ditampilkan pada tabel.
+2
 
 ## Kesimpulan
 
-saya mempelajari konsep PBO salah satu 4 pilar yaitu Polimorfisme yang berartikan perubahan bentuk maksutnya Class parent Berubah bentuk menjadi Class turunannya dengan cara membuat objek dan memanggil method didalam Class parent yang mengoverriding ke Class turunannya.
+yang saya pelajari dari kumpulan percobaan pada minggu ke 12 java api dan database adalah mengisi, menghapus, memformat object dengan fungsi yang ada pada program HashMap, dan menambahkan data / menginput data menggunakan fungsi arraylist serta menampilkan di dalam komponen JFrame
 
 ## Pernyataan Diri
 
