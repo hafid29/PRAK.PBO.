@@ -151,11 +151,13 @@ link kode program : [link kode](../../src/11_GUI/Kalkulator1941723009Hafid.java)
 
 2. mentahan Kalkulator dan src kalkulator
 
+![screenshot](img/mentahankalkulator.jpg)
+
 ![screenshot](img/srckalkulator.jpg)
 
 ## Kesimpulan
 
-Kesimpulan dari kumpulan percobaan diatas dan tugas kita bisa memahami beberapa komponen yang ada JFrame dan memberikan perintah fungsi di dalam komponennya
+saya mempelajari konsep PBO salah satu 4 pilar yaitu Polimorfisme yang berartikan perubahan bentuk maksutnya Class parent Berubah bentuk menjadi Class turunannya dengan cara membuat objek dan memanggil method didalam Class parent yang mengoverriding ke Class turunannya.
 
 ## Pernyataan Diri
 
