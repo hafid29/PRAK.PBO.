@@ -72,92 +72,76 @@ link kode program : [link kode](../../src/14_GUI_dan_Database/DBHelper1941723009
 
 ### Percobaan 4
 
-1. Class InputData1941723009Hafid
+1. Class Kategori1941723009Hafid
 
-![screenshot](img/inputdata.jpg)
+![screenshot](img/kategori.JPG)
 
-link kode program : [link kode](../../src/12_Java_API_dan_Database/InputData1941723009Hafid.java)
+![screenshot](img/kategoriclass.jpg)
 
-2. Class Mahasiswa1941723009Hafid
-
-![screenshot](img/mahasiswa.jpg)
-
-link kode program : [link kode](../../src/12_Java_API_dan_Database/Mahasiswa1941723009Hafid.java)
-
-3. Class TampilGui1941723009Hafid
-
-![screenshot](img/maintampilgui.jpg)
-
-link kode program : [link kode](../../src/12_Java_API_dan_Database/TampilGui1941723009Hafid.java)
-
+link kode program : [link kode](../../src/14_GUI_dan_Database/Kategori1941723009Hafid.java)
 
 ### Percobaan 5
 
+1. Class testbackend1941723009Hafid
 
-1. Buatlah Package baru dengan nama Biodata atau membuat project baru dengan cara
-a. File  New Project
-b. Pilih categories  Java dengan Projects  Java Application  klik next
-c. Isi nama Project dengan Biodata dan atur letak project akan disimpan
-d. Kemudian tambahkan Jframe Form dengan nama FormKoneksi.
-e. Desain FormKoneksi seperti berikut2. Langkah selanjutnya tambahkan libraries, dengan cara klik kanan pada Libraries. Kemudian
-pilih add library dan pilih MySQL JDBC Driver.
-Tampilan Libraries setelah ditambah MySQL JDBC Driver.
-3. Pada tahap ini aplikasi sudah siap untuk bertransaksi dengan database yang sudah kita buat
-pada langkah 1. Selanjutnya kita buat method untuk melakukan koneksi dengan database,
-seperti berikut:Pada method buka_koneksi untuk variabel url terdapat angka 6606 adalah port mysql yang
-digunakan oleh penulis. Pada umumnya port mysql secara default adalah 3306. Sedangkan
-untuk Biodata adalah nama database yang digunakan oleh penulis.
-4. Pada button add klik tambahkan code sebagai berikut:
-buka_koneksi();
-String sqlkode="Insert into anggota (nama,alamat,telp) "
-+ "values ('"+this.jTFNama.getText()+"',"
-+ "'"+this.jTFAlamat.getText()+"',"
-+ "'"+this.jTFTelepon.getText()+"')";
-try {
-PreparedStatement mStatement = koneksi.prepareStatement(sqlkode);
-mStatement.executeUpdate();
-mStatement.close();
-JOptionPane.showMessageDialog(this,"Data Berhasil Ditambah");
-} catch (SQLException ex) {
-JOptionPane.showMessageDialog(this,"Terjadi Kesalahan "+ex.getMessage());
-}
-5. Setelah menambah code pada action button klik, coba jalankan program dan tambahkan
-data. Apakah program berhasil menambahkan data? Jika tidak apakah penyebabnya.
-.................................................................
-6. Jelaskan maksud source code untuk melakukan insert data diatas?
-.................................................................
-7. Buat Table model yang digunakan untuk memanipulasi tampilan pada Jtable, seperti pada
-code dibawah ini:8. Selanjutnya buat method ambil_data_tabel seperti berikut
-private void ambil_data_tabel() {
-model.getDataVector().removeAllElements();
-model.fireTableDataChanged();
-try {
-buka_koneksi();
-Statement s = koneksi.createStatement();
-String sql = "Select * from anggota";
-ResultSet r = s.executeQuery(sql);
-while (r.next()) {
-Object[] o = new Object[4];
-o[0] = r.getString("id");
-o[1] = r.getString("nama");
-o[2] = r.getString("alamat");
-o[3] = r.getString("telp");
-model.addRow(o);
-}
-r.close();
-s.close();
-} catch (SQLException e) {
-JOptionPane.showMessageDialog(this,"Terjadi kesalahan " + e.getMessage());
-}
-}
-Jalankan program maka data yang sudah kita add akan tampil seperti berikut:9. Jelaskan alur dari method ambil_data_tabel?
-...........
-10. Buat fungsi untuk merefresh sehingga data yang baru dapat ditampilkan pada tabel.
-2
+![screenshot](img/testbackend.jpg)
+
+link kode program : [link kode](../../src/14_GUI_dan_Database/TestBackend1941723009Hafid.java)
+
+2. Class frmkategori
+
+![screenshot](img/simpan.jpg)
+
+![screenshot](img/hapus.jpg)
+
+![screenshot](img/cari.jpg)
+
+link kode program : [link kode](../../src/14_GUI_dan_Database/frmkategori.java)
+
+### Percobaan 6
+
+1. Class anggota1941723009Hafid
+
+![screenshot](img/anggota.jpg)
+
+link kode program : [link kode](../../src/14_GUI_dan_Database/Anggota1941723009Hafid.java)
+
+2. Class testbackendanggota1941723009Hafid
+
+![screenshot](img/testbackendanggota.jpg)
+
+link kode program : [link kode](../../src/14_GUI_dan_Database/TestBackendAnggota1941723009Hafid.java)
+
+### Percobaan 7
+
+1. Class Anggota Frame
+
+![screenshot](img/anggotaframe.jpg)
+
+link kode program : [link kode](../../src/14_GUI_dan_Database/frmanggota.java)
+
+### Percobaan 8
+1. Class Buku Frame
+
+![screenshot](img/frmbuku.jpg)
+
+![screenshot](img/testbackendbuku.jpg)
+
+link kode program : [link kode](../../src/14_GUI_dan_Database/frmbuku.java)
+
+link kode program : [link kode](../../src/14_GUI_dan_Database/TestBackendBuku1941723009Hafid.java)
+
+### tugas
+
+1. Class Buku Frame
+
+![screenshot](img/frmpeminjaman.jpg)
+
+link kode program : [link kode](../../src/14_GUI_dan_Database/frmpeminjaman.java)
 
 ## Kesimpulan
 
-yang saya pelajari dari kumpulan percobaan pada minggu ke 12 java api dan database adalah mengisi, menghapus, memformat object dengan fungsi yang ada pada program HashMap, dan menambahkan data / menginput data menggunakan fungsi arraylist serta menampilkan di dalam komponen JFrame
+yang saya pelajari dari kumpulan percobaan pada minggu ke 14 GUI dan database adalah mengisi, menghapus, dan menyimpan sebuah data lalu di masukkan kedalam database, percobaan tersebut hampir seperti percobaan minggu ke 12. 
 
 ## Pernyataan Diri
 
